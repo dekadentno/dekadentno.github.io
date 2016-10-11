@@ -159,37 +159,6 @@ section h2 {
     margin-bottom: 5px;
 }
 
-
-/*.strength .bar {
- height: 20px;
- background-color: #f30030;
- width: 52%;
-}
-
-.intelligence .bar {
- height: 20px;
- background-color: #f30030;
- width: 69%;
-}
-
-.stamina .bar {
- height: 20px;
- background-color: #f30030;
- width: 82%;
-}
-
-.luck .bar {
- height: 20px;
- background-color: #f30030;
- width: 9%;
-}
-
-.charisma .bar {
- height: 20px;
- background-color: #f30030;
- width: 19%;
-}*/
-
 .status-name {
     position: absolute;
     left: 50%;
