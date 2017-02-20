@@ -136,6 +136,28 @@ section h2 {
     padding-left: 10px;
 }
 
+#current .item {
+    margin: 0.5em 0;
+    padding: 0 0 0.5em;
+    font-size: 90%;
+}
+
+#current .item .name {
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1em 0 0;
+    width: 23%;
+    vertical-align: top;
+}
+
+#current .item .keywords {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
 #education .item {
     display: inline-block;
     vertical-align: top;
@@ -166,5 +188,9 @@ section h2 {
 
 .colored {
     color: #f30030;
-    s
+}
+
+.about {
+    text-align: justify;
+    text-justify: inter-word;
 }
