@@ -28,7 +28,7 @@
         .classList.remove("displaynone");
       TYPEIT_INSTANCE = new TypeIt(".bash-4", {
         strings:
-          'Check out my CV <a target="_blank" href="https://dekadentno.github.io/cv.html">here</a>',
+          'Check out my CV <a target="_blank" href="https://dekadentno.github.io/cv.html">here</a>.',
         speed: 60,
         html: true,
         waitUntilVisible: true
