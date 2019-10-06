@@ -71,8 +71,6 @@
         .pause(2000)
         .type("Hello, stranger.")
         .go();
-
-      typeit.destroy();
     },
     initParticles() {
       particlesJS("sorry", {
