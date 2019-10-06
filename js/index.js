@@ -9,17 +9,8 @@
     init: function() {
       _log("Why are you looking at my logs?");
 
-      this.cacheElements();
-      this.bindEvents();
-
       this.initParticles();
       this.initStepOne();
-    },
-    cacheElements: function() {
-      // cache elements here
-    },
-    bindEvents: function() {
-      // bind events here
     },
     initStepFour() {
       TYPEIT_INSTANCE.destroy();
@@ -43,7 +34,6 @@
         speed: 60,
         waitUntilVisible: true,
         afterComplete: () => {
-          _log("gotovo!");
           setTimeout(() => this.initStepFour(), 2000);
         }
       })
@@ -66,7 +56,6 @@
         speed: 60,
         waitUntilVisible: true,
         afterComplete: () => {
-          _log("gotovo!");
           setTimeout(() => this.initStepThree(), 2000);
         }
       }).go();
@@ -79,6 +68,7 @@
           setTimeout(() => this.initStepTwo(), 2000);
         }
       })
+        .pause(2000)
         .type("Hello, stranger.")
         .go();
 
