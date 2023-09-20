@@ -43,7 +43,7 @@
         .type("geek.")
         .pause(1500)
         .delete(5)
-        .type("web developer.")
+        .type("security consultant.")
         .go();
     },
     initStepTwo() {
